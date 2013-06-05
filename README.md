@@ -51,27 +51,25 @@ Python course structured in 3 big blocks: basic, advanced and utilities
 
 ## UTILITIES BLOCK:
 
-* 01: Standatd library: most useful modules
-  * datetime + tz, time
-  * System and filesystem access: sys, os, shutil
-  * Json handling (and simplejson and ujson)
-  * CLIs: cmd
-  * logging and traceback
-  * Scripts parametrization: argparse, configparser
-  * Commands execution: popen
-  * Regular Expressions
-  * inspect + _getframe
-* 02: DB access: pymongo, redis, python-mysql, SQLAlchemy
-* 03: HTTP requests: urllib, httplib, requests
-* 04: Paralelism: Threading, GIL, multiprocessing
-* 05: Asynch processing: gevent
-* 06: Web development: Django and Django rest fwk
-* 07: Unit testing and mocking
-* 08: Debugging and profiling: timeit, profile, ipdb, plop
-* 09: Packaging and distribution: setuptools, distutils, distribute
-* 10: Remote access: fabric and paramiko
-
-
+* 01: Profiling and timing: profile, cprofile, timeit, plop
+* 02: Standatd library: most useful modules
+  * 02.1: time and datetime
+  * 02.2: System and filesystem access: sys, os, shutil, subprocess and atexit
+  * 02.3: Json handling: json, simplejson and ujson
+  * 02.4: logging
+  * 02.5: Command line arguments parsing: argparse
+  * 02.5: Configuration files parsing: configparser
+* 03: Network utilities: socket, urllib2, httplib, urlparse and requests
+* 04: MySQL official driver
+* 05: MongoDB official driver
+* 06: Threading and GIL
+* 07: Multiprocessing
+* 08: Gevent
+* 09: Django and Django Rest Framework
+* 08: Debugging: pdb and ipdb
+* 11: Testing
+* 12: Remote access: fabric and paramiko
+* 13: Packaging and distribution: distribute
 
 
 # Old course content (first round in 3 sessions)
@@ -115,26 +113,27 @@ Python course structured in 3 big blocks: basic, advanced and utilities
 
 ## UTILITIES BLOCK (6 - 8h)
 
-* 01: Profiling and timing
+* 01: Profiling and timing: profile, cprofile, timeit, plop
 * 02: Standatd library: most useful modules
-  * 02_1: itertools
-  * 02_2: functools
-  * 02_3: contextlibs
-  * 02_4: datetime
-  * 02_5: system: System and filesystem access
-  * 02_6: json
-  * 02_7: logging
-  * 02_8: argparse: command line arguments
-  * 02_8: configparser: configuration files
-* 03: network: socket, urllib, httplib, requests
-* 04: mysqldb
-* 05: pymongo
+  * 02.1: Iterators and generatos tools: itertools
+  * 02.2: Functions manipulation tools: functools
+  * 02.3: Context managers utilities: contextlibs
+  * 02.4: time and datetime
+  * 02.5: System and filesystem access: sys, os, shutil, subprocess and atexit
+  * 02.6: Json handling: json, simplejson and ujson
+  * 02.7: logging
+  * 02.8: Command line arguments parsing: argparse
+  * 02.9: Configuration files parsing: configparser
+* 03: Network utilities: socket, urllib2, httplib, urlparse and requests
+* 04: MySQL official driver
+* 05: MongoDB official driver
 * 06: Threading and GIL
-* 07: multiprocessing
-* 08: gevent
-* 09: Django
-* 10: Debugging
-* 11: Unit testing
-* 12: Fabric: remote access
+* 07: Multiprocessing
+* 08: Gevent
+* 09: Django and Django Rest Framework
+* 08: Debugging: pdb and ipdb
+* 11: Testing
+* 12: Remote access: fabric and paramiko
+* 13: Packaging and distribution: distribute
 
 
